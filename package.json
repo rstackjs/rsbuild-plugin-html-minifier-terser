@@ -1,7 +1,7 @@
 {
 	"name": "rsbuild-plugin-html-minifier-terser",
 	"version": "1.1.2",
-	"repository": "https://github.com/rspack-contrib/rsbuild-plugin-html-minifier-terser",
+	"repository": "https://github.com/rstackjs/rsbuild-plugin-html-minifier-terser",
 	"license": "MIT",
 	"type": "module",
 	"exports": {
@@ -49,7 +49,7 @@
 		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
-		"@rsbuild/core": "1.x"
+		"@rsbuild/core": "^1.0.0 || ^2.0.0-0"
 	},
 	"peerDependenciesMeta": {
 		"@rsbuild/core": {
