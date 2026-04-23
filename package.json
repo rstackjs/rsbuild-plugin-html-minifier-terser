@@ -39,7 +39,7 @@
     "html-minifier-terser": "^7.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.4.13",
     "@playwright/test": "^1.59.1",
     "@rsbuild/core": "1.7.5",
     "@rslib/core": "^0.21.2",
