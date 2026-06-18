@@ -2,6 +2,10 @@
   "name": "rsbuild-plugin-html-minifier-terser",
   "version": "1.1.5",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-html-minifier-terser",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-html-minifier-terser#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-html-minifier-terser/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
