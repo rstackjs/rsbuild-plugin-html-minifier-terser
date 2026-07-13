@@ -20,7 +20,7 @@ test('should minify template as expected', async ({ page }) => {
       },
       plugins: [pluginHtmlMinifierTerser()],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });

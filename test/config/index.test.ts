@@ -25,7 +25,7 @@ test('should not minify template when minifyJS is false', async ({ page }) => {
         }),
       ],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
