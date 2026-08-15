@@ -82,8 +82,7 @@ function getMinifyOptions(
 }
 
 type Options =
-  | HtmlTerserOptions
-  | ((options: HtmlTerserOptions) => HtmlTerserOptions);
+  HtmlTerserOptions | ((options: HtmlTerserOptions) => HtmlTerserOptions);
 
 type BundlerPlugin = {
   name?: string;
