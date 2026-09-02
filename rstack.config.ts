@@ -20,13 +20,10 @@ define.lib({
 });
 
 define.test({
-  // Preserve the standalone Rstest configuration without Rslib inheritance.
-  extends: {},
   env: {
     // Let Rsbuild choose the mode based on the command.
     NODE_ENV: undefined,
   },
-  isolate: false,
 });
 
 define.fmt({
