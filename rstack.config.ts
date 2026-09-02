@@ -14,9 +14,6 @@ define.lib({
       },
     },
   ],
-  output: {
-    target: 'node',
-  },
 });
 
 define.test({
